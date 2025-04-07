@@ -1,0 +1,126 @@
+@import 'tailwindcss';
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.typewrite > .wrap {
+  border-right: 0.08em solid #335c67;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+/* .better-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+.better-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.better-scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+  cursor: grab;
+}
+
+.better-scrollbar::-webkit-scrollbar-thumb:active {
+  background: #888;
+  border-radius: 10px;
+  cursor: grabbing;
+}
+
+
+.better-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+
+@layer base {
+  :root {
+    --background: #fffbeb;
+    --background-p1: #89ddd6;
+    --background-p2: #899bdd;
+    --background-p3: #4fb39c;
+    --background-p4: #ec8385;
+    --background-p5: #99a75d;
+    --foreground: #111827;
+    --card-background: #fef3c7;
+    --card-foreground: #111827;
+    --accent-background: #800e13;
+    --accent-foreground: #fffbeb;
+    --secondary: #4b5563;
+    --border: #111827;
+
+    --button-green: #55d355;
+    --button-green-hovered: #4fc04f;
+    --button-yellow: #ffd500;
+    --button-yellow-hovered: #fcdb38;
+    --button-blue: #2563eb;
+    --button-blue-hovered: #1549b9;
+    --button-purple: #8b3ecf;
+    --button-purple-hovered: #7e39bb;
+    --button-red: #d00000;
+    --button-red-hovered: #b40202;
+
+    --header-lime: #bbf451;
+    --header-purple: #8a51f4;
+  }
+  .dark {
+    --background: #22333b;
+    --foreground: #eae0d5;
+  }
+}
+
+@theme {
+  /** Fonts */
+  --font-main: 'Cabin', sans-serif;
+  --font-heading: 'Tourney', sans-serif;
+  --font-pacifico: 'Pacifico', cursive;
+  --font-archivo: 'Archivo Black', sans-serif;
+  --font-rubik: 'Rubik Doodle Shadow', system-ui;
+
+  /** Colors */
+  --color-background: #fff5cb;
+  --color-background-p1: #89ddd6;
+  --color-background-p2: #899bdd;
+  --color-background-p3: #4fb39c;
+  --color-background-p4: #ec8385;
+  --color-background-p5: #99a75d;
+
+  --color-foreground: #111827;
+  --color-card-background: #fef3c7;
+  --color-card-foreground: #111827;
+  --color-accent-background: #800e13;
+  --color-accent-foreground: #fffbeb;
+  --color-secondary: #4b5563;
+  --color-border: #111827;
+
+  /* Button colors */
+  --color-button-green: #55d355;
+  --color-button-green-hovered: #4fc04f;
+  --color-button-yellow: #ffd500;
+  --color-button-yellow-hovered: #fcdb38;
+  --color-button-blue: #2563eb;
+  --color-button-blue-hovered: #1549b9;
+  --color-button-purple: #8b3ecf;
+  --color-button-purple-hovered: #7e39bb;
+  --color-button-red: #d00000;
+  --color-button-red-hovered: #b40202;
+
+  /* Header Colors */
+  --color-header-lime: #bbf451;
+  --color-header-purple: #8a51f4;
+}
+
+.tourney-300 {
+  font-family: 'Tourney', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
