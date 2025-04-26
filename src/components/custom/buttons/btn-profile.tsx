@@ -40,7 +40,7 @@ export const BtnProfile = ({
         className={`${borderRadiusStyles[btn_style]} ${borderRadiusStyles[btn_style]} ${borderWidthStyles[btn_style]} relative z-10 flex h-12 w-12 items-center gap-1 border-gray-900 font-bold transition-all outline-none hover:-translate-x-[1px] hover:-translate-y-[1px] active:translate-x-[1.5px] active:translate-y-[1.5px] ${className}`}
       >
         <img
-          src="/profile.jpg"
+          src="/images/shrey.jpg"
           alt="Profile"
           className={`h-full w-full ${borderRadiusStyles[btn_style]}`}
         />

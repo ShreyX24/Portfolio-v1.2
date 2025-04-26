@@ -14,6 +14,7 @@ export const BtnBgShadow = ({
     '0': 'rounded-none',
     '3': 'rounded-[3px]',
     '4': 'rounded-[4px]',
+    '14': 'rounded-[14px]',
     '100': 'rounded-full',
     // Add more mappings as needed
   };
