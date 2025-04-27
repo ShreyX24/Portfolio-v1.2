@@ -31,14 +31,14 @@ export const ImgCards = ({ card_style = 'square_rounded' }: ImgCardsProps) => {
         translate="4"
       />
       <Star15
-        color="#7e39bb"
+        color="#ec8385"
         strokeWidth={8}
         stroke="black"
         width={100}
         className="absolute -top-10 -left-5 z-20"
       />
       <div
-        className={`${borderRadiusStyles[card_style]} ${borderRadiusStyles[card_style]} ${borderWidthStyles[card_style]} bg-background-p1 relative z-10 flex size-full flex-col items-start gap-1 border-gray-900 p-4 font-bold transition-all outline-none`}
+        className={`${borderRadiusStyles[card_style]} ${borderRadiusStyles[card_style]} ${borderWidthStyles[card_style]} bg-background-p6 relative z-10 flex size-full flex-col items-start gap-1 border-gray-900 p-4 font-bold transition-all outline-none`}
       >
         <div
           className={`${borderRadiusStyles[card_style]} ${borderWidthStyles[card_style]} h-[90%] w-full border-gray-900 outline-none`}
@@ -51,7 +51,9 @@ export const ImgCards = ({ card_style = 'square_rounded' }: ImgCardsProps) => {
         </div>
 
         <div className="relative flex h-[20%] w-full items-start justify-between py-2">
-          <span className="">@dreadeye</span>
+          <span className="border-foreground text-background h-[45px] rounded-t-3xl border-[3px] border-b-0 bg-header-purple px-2 py-1">
+            @dreadeye
+          </span>
           <div className="flex items-baseline gap-2">
             <img src="/icons/heart.png" alt="" width={18} />
             <img src="/icons/comment.svg" alt="" width={18} />

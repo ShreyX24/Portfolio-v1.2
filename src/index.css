@@ -48,6 +48,7 @@
     --background-p3: #4fb39c;
     --background-p4: #ec8385;
     --background-p5: #99a75d;
+    --background-p6: #eccd05;
     --foreground: #111827;
     --card-background: #fef3c7;
     --card-foreground: #111827;
@@ -68,7 +69,7 @@
     --button-red-hovered: #b40202;
 
     --header-lime: #bbf451;
-    --header-purple: #8a51f4;
+    --header-purple: #9c00ff;
   }
   .dark {
     --background: #22333b;
@@ -91,6 +92,7 @@
   --color-background-p3: #4fb39c;
   --color-background-p4: #ec8385;
   --color-background-p5: #99a75d;
+  --color-background-p6: #eccd05;
 
   --color-foreground: #111827;
   --color-card-background: #fef3c7;
@@ -114,7 +116,7 @@
 
   /* Header Colors */
   --color-header-lime: #bbf451;
-  --color-header-purple: #8a51f4;
+  --color-header-purple: #9c00ff;
 }
 
 .tourney-300 {
