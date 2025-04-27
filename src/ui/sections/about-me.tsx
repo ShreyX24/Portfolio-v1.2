@@ -2,6 +2,7 @@ import { RouterAnimation } from '../../animations/router-animation';
 import { BtnBgShadow } from '../../components/custom/buttons/btn-bg-shadow';
 import { ImgCards } from '../../components/custom/cards/img-cards';
 import { Typewriter } from '../../components/custom/typewriter';
+import { FlyingAirplane } from '../../components/eyecandy/airplane';
 import { GridPattern } from '../../components/eyecandy/dottedGrid';
 import { Shape } from '../../components/eyecandy/shape';
 import { Star8 } from '../../components/eyecandy/start8';
@@ -10,6 +11,7 @@ export const AboutMe = () => {
   return (
     <RouterAnimation className="bg-background">
       <div className="relative flex h-screen w-screen flex-col items-center justify-center overflow-hidden text-start">
+      <FlyingAirplane />
         {/* eyecandy stars */}
         <Star8
           color="#c5d86d"
